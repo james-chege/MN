@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 import cors from 'cors';
 
 import users from './routes/users';
-import tickets from './routes/codes';
+import codes from './routes/codes';
 import HttpError from './utils/http-error';
 
 dotenv.config()
@@ -15,7 +15,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use('/api/users', users);
-app.use('/api/codes', tickets);
+app.use('/api/codes', codes);
 
 app.use((req, res, next) => {
     const error = new HttpError('Could not find this route.', 404);
