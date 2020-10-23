@@ -53,3 +53,13 @@ createdb tickets -U postgres
    $ yarn start
    ```
    
+   ## Screenshots
+   
+   - image 1
+   ![image](https://user-images.githubusercontent.com/29597869/96986713-b25a3c80-152a-11eb-838c-65c9f9dae399.png)
+   
+   - image 2
+   ![image](https://user-images.githubusercontent.com/29597869/96986750-bc7c3b00-152a-11eb-8d0c-6c341250287f.png)
+   
+   - image 3
+   ![image](https://user-images.githubusercontent.com/29597869/96986774-c56d0c80-152a-11eb-8424-684135f4293d.png)
